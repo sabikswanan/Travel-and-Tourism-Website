@@ -148,7 +148,7 @@ flowchart LR
 <br/>
 
 ```mermaid
-%%{init: {"theme": "base", "themeVariables": {"primaryColor": "#ECFEFF", "primaryBorderColor": "#0E7490", "primaryTextColor": "#0F172A", "lineColor": "#0E7490", "secondaryColor": "#FFF7ED", "tertiaryColor": "#F8FAFC", "actorBkg": "#0E7490", "actorTextColor": "#FFFFFF", "actorBorder": "#0E7490", "signalColor": "#0F172A", "noteBkgColor": "#FFF7ED"}}}%%
+%%{init: {"theme": "base", "themeVariables": {"primaryColor": "#ECFEFF", "primaryBorderColor": "#0E7490", "primaryTextColor": "#0F172A", "lineColor": "#F97316", "secondaryColor": "#FFF7ED", "tertiaryColor": "#F8FAFC", "actorBkg": "#0E7490", "actorTextColor": "#FFFFFF", "actorBorder": "#0E7490", "signalColor": "#F97316", "signalTextColor": "#F97316", "textColor": "#F97316", "labelTextColor": "#F97316", "sequenceNumberColor": "#FFFFFF", "noteBkgColor": "#FFF7ED"}}}%%
 erDiagram
     USER ||--o{ BOOKING : makes
     USER ||--o{ REVIEW : writes
@@ -196,7 +196,7 @@ erDiagram
 ## 🧭 Booking Flow
 
 ```mermaid
-%%{init: {"theme": "base", "themeVariables": {"primaryColor": "#ECFEFF", "primaryBorderColor": "#0E7490", "primaryTextColor": "#0F172A", "lineColor": "#0E7490", "secondaryColor": "#FFF7ED", "tertiaryColor": "#F8FAFC", "actorBkg": "#0E7490", "actorTextColor": "#FFFFFF", "actorBorder": "#0E7490", "signalColor": "#0F172A", "noteBkgColor": "#FFF7ED"}}}%%
+%%{init: {"theme": "base", "themeVariables": {"primaryColor": "#ECFEFF", "primaryBorderColor": "#0E7490", "primaryTextColor": "#0F172A", "lineColor": "#F97316", "secondaryColor": "#FFF7ED", "tertiaryColor": "#F8FAFC", "actorBkg": "#0E7490", "actorTextColor": "#FFFFFF", "actorBorder": "#0E7490", "signalColor": "#F97316", "signalTextColor": "#F97316", "textColor": "#F97316", "labelTextColor": "#F97316", "sequenceNumberColor": "#FFFFFF", "noteBkgColor": "#FFF7ED"}}}%%
 sequenceDiagram
     autonumber
     participant T as Traveller
